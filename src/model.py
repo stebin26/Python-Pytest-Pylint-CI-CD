@@ -24,4 +24,3 @@ def evaluate_model(model, features_test,target_test):
     predictions = model.predict(features_test)
     mse = mean_squared_error(target_test, predictions)
     return mse
-    
