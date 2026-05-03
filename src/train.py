@@ -6,7 +6,7 @@ from src.model import train_model, evaluate_model
 
 def main():
     """ function for loading data """
-    df = load_data(r"/media/ubuntu/2C8A93A48A93695A/ubuntu/Week 45/student_performance/data/student_scores_updated.csv")
+    df = load_data("data/student_scores_updated.csv")
 
     model, features_test, target_test = train_model(df)
 
